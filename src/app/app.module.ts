@@ -8,6 +8,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FeaturesComponent } from './homepage/features/features.component';
 import { AboutComponent } from './homepage/about/about.component';
 import { ToursComponent } from './homepage/tours/tours.component';
+import { UserStoriesComponent } from './homepage/user-stories/user-stories.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ToursComponent } from './homepage/tours/tours.component';
     HeaderComponent,
     FeaturesComponent,
     AboutComponent,
-    ToursComponent
+    ToursComponent,
+    UserStoriesComponent
   ],
   imports: [
     BrowserModule,
