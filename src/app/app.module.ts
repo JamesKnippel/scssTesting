@@ -9,6 +9,7 @@ import { FeaturesComponent } from './homepage/features/features.component';
 import { AboutComponent } from './homepage/about/about.component';
 import { ToursComponent } from './homepage/tours/tours.component';
 import { UserStoriesComponent } from './homepage/user-stories/user-stories.component';
+import { BackgroundVideoComponent } from './homepage/background-video/background-video.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UserStoriesComponent } from './homepage/user-stories/user-stories.compo
     FeaturesComponent,
     AboutComponent,
     ToursComponent,
-    UserStoriesComponent
+    UserStoriesComponent,
+    BackgroundVideoComponent
   ],
   imports: [
     BrowserModule,
