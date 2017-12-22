@@ -10,6 +10,8 @@ import { AboutComponent } from './homepage/about/about.component';
 import { ToursComponent } from './homepage/tours/tours.component';
 import { UserStoriesComponent } from './homepage/user-stories/user-stories.component';
 import { BackgroundVideoComponent } from './homepage/background-video/background-video.component';
+import { GetStartedComponent } from './homepage/get-started/get-started.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BackgroundVideoComponent } from './homepage/background-video/background
     AboutComponent,
     ToursComponent,
     UserStoriesComponent,
-    BackgroundVideoComponent
+    BackgroundVideoComponent,
+    GetStartedComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
