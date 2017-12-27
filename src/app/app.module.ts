@@ -12,6 +12,7 @@ import { UserStoriesComponent } from './homepage/user-stories/user-stories.compo
 import { BackgroundVideoComponent } from './homepage/background-video/background-video.component';
 import { GetStartedComponent } from './homepage/get-started/get-started.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { NavigationComponent } from './homepage/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     UserStoriesComponent,
     BackgroundVideoComponent,
     GetStartedComponent,
-    FooterComponent
+    FooterComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
