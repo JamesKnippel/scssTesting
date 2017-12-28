@@ -13,6 +13,7 @@ import { BackgroundVideoComponent } from './homepage/background-video/background
 import { GetStartedComponent } from './homepage/get-started/get-started.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavigationComponent } from './homepage/navigation/navigation.component';
+import { HomepageModalComponent } from './homepage/homepage-modal/homepage-modal.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NavigationComponent } from './homepage/navigation/navigation.component'
     BackgroundVideoComponent,
     GetStartedComponent,
     FooterComponent,
-    NavigationComponent
+    NavigationComponent,
+    HomepageModalComponent
   ],
   imports: [
     BrowserModule,
