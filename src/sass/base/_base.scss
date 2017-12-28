@@ -9,8 +9,13 @@
 html {
   font-size: 62.5%; 
   /* One rem will equal 10 pixels */
+
+  @include respond(phone) {
+    font-size: 50%;
+  }
 }
 
 body {
   box-sizing: border-box;
 }
+
