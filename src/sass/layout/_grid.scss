@@ -3,7 +3,6 @@
   max-width: $grid-width;
   margin: 0 auto;
 
-  // place on all except the last child
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
 
@@ -25,7 +24,7 @@
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
 
-        @include respond(tab-port) {
+      @include respond(tab-port) {
         margin-right: 0;
         margin-bottom: $gutter-vertical-small;
       }

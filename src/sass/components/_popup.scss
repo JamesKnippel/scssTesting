@@ -24,6 +24,7 @@
   }
 
   &__left {
+    height: auto;
     width: 33.33333%;
     display: table-cell;
   }
@@ -36,8 +37,10 @@
   }
 
   &__img {
+    float: left;
     display: block;
     width: 100%;
+    max-width: 100%;
   }
 
   &__text {
