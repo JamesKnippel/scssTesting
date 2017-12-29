@@ -1,9 +1,13 @@
 @import "../../../sass/abstracts/_variables.scss";
+@import "../../../sass/abstracts/_mixins.scss";
 
 .section-start {
   padding: 15rem 0;
   background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
 
+  @include respond(tab-port) {
+    padding: 10rem 0;
+  }
 }
 
 .start {
